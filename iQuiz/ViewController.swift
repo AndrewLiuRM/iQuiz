@@ -35,9 +35,9 @@ class ViewController: UIViewController, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        data.append(Cell(title: "Mathematics", description: "content", image: "math"))
-        data.append(Cell(title: "Marvel Super Heros", description: "content", image: "marvel"))
-        data.append(Cell(title: "Science", description: "content", image: "science"))
+        data.append(Cell(title: "Mathematics", description: "Math questions.", image: "math"))
+        data.append(Cell(title: "Marvel Super Heros", description: "Marvel Super Hero questions.", image: "marvel"))
+        data.append(Cell(title: "Science", description: "Scientific questions", image: "science"))
         NSLog("\(data.count)")
         table.dataSource = self
         // Do any additional setup after loading the view, typically from a nib.
