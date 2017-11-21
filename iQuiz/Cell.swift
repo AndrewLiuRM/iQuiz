@@ -11,9 +11,9 @@ import Foundation
 class Cell {
     public var title:String;
     public var description:String;
-    public var image:String;
+    public var image:String?;
     
-    init(title: String, description: String, image: String) {
+    init(title: String, description: String, image: String?) {
         self.title = title
         self.description = description
         self.image = image
